@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Konstrukt AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html">Konstrukt<span>AI</span></a>
+  <div class="nav-links" id="nav-links">
+    <a href="index.html">Home</a>
+    <a href="aanbod.html">Ons Aanbod</a>
+    <a href="over-ons.html">Over Ons</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="contact.html" class="nav-cta">Gratis gesprek</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="page-hero">
+  <div class="badge">Gratis &middot; Vrijblijvend</div>
+  <h1>Neem <em>contact</em> op</h1>
+  <p>Stuur ons een bericht of plan direct een gesprek. U hoort binnen één werkdag terug.</p>
+</div>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="contact-layout">
+
+      <div class="contact-info">
+        <h3>Direct bereikbaar</h3>
+        <div class="c-item">
+          <div class="c-icon">✉️</div>
+          <div class="c-text"><strong>E-mail</strong><a href="mailto:hallo@konstrukt.ai">hallo@konstrukt.ai</a></div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">📍</div>
+          <div class="c-text"><strong>Locatie</strong><span>Amsterdam, Nederland</span></div>
+        </div>
+        <div class="c-item">
+          <div class="c-icon">🕐</div>
+          <div class="c-text"><strong>Reactietijd</strong><span>Binnen 1 werkdag</span></div>
+        </div>
+        <div style="margin-top:2rem;padding:1.25rem;background:var(--sage-50);border:1px solid var(--border);border-radius:12px">
+          <p style="font-size:0.85rem;color:var(--muted);line-height:1.65"><strong style="color:var(--text);display:block;margin-bottom:0.3rem">Geen verplichtingen</strong>Het eerste gesprek is volledig vrijblijvend. We laten zien wat het systeem voor uw bedrijf kan doen &mdash; zonder pitch, zonder druk.</p>
+        </div>
+      </div>
+
+      <div>
+        <form action="https://formspree.io/f/hallo@konstrukt.ai" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="naam">Naam</label>
+              <input type="text" id="naam" name="naam" placeholder="Jan de Vries" required>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mailadres</label>
+              <input type="email" id="email" name="email" placeholder="jan@bouwbedrijf.nl" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="bedrijf">Bedrijfsnaam</label>
+            <input type="text" id="bedrijf" name="bedrijf" placeholder="Bouwbedrijf De Vries BV">
+          </div>
+          <div class="form-group">
+            <label for="interesse">Waarvoor heeft u interesse?</label>
+            <select id="interesse" name="interesse">
+              <option value="">Selecteer een optie</option>
+              <option>Kennisbank</option>
+              <option>Contractanalyse</option>
+              <option>Automatische notulen</option>
+              <option>Offertes vergelijken</option>
+              <option>Compleet pakket</option>
+              <option>Pilot (gratis)</option>
+              <option>Nog niet zeker</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="bericht">Uw situatie of vraag</label>
+            <textarea id="bericht" name="bericht" placeholder="Vertel ons kort over uw bedrijf en wat u hoopt te verbeteren..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="width:100%;justify-content:center">Verstuur bericht &rarr;</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section class="section section-alt">
+  <div class="section-inner">
+    <span class="label">Veelgestelde vragen</span>
+    <h2>Wat kunt u <em>verwachten?</em></h2>
+    <div class="faq">
+      <div class="faq-item"><div class="faq-q">Wat gebeurt er na mijn bericht?</div><div class="faq-a">U hoort binnen één werkdag van ons. We plannen een kennismaking van 30 minuten om uw situatie te begrijpen en te laten zien wat het systeem concreet voor u kan doen.</div></div>
+      <div class="faq-item"><div class="faq-q">Is het eerste gesprek echt gratis?</div><div class="faq-a">Ja. Geen verborgen kosten, geen verplichtingen. Wij geloven dat u pas kunt beslissen als u het systeem in actie ziet.</div></div>
+      <div class="faq-item"><div class="faq-q">Hoe snel kan het systeem live zijn?</div><div class="faq-a">Doorgaans binnen drie weken na de intake. Heeft u haast, dan kijken we naar een versneld traject.</div></div>
+      <div class="faq-item"><div class="faq-q">Kom ik in aanmerking voor de gratis pilot?</div><div class="faq-a">De pilot is beschikbaar voor één referentieklant. Vermeldt u in uw bericht dat u hiervoor interesse heeft, dan bespreken we de voorwaarden.</div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo-text">Konstrukt<span>AI</span></span>
+      <p>AI voor de bouwsector. Gebouwd in Amsterdam door mensen die de branche kennen.</p>
+    </div>
+    <div class="footer-col">
+      <strong>Navigatie</strong>
+      <a href="index.html">Home</a>
+      <a href="aanbod.html">Ons Aanbod</a>
+      <a href="over-ons.html">Over Ons</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <strong>Contact</strong>
+      <a href="mailto:hallo@konstrukt.ai">hallo@konstrukt.ai</a>
+      <span>Amsterdam, Nederland</span>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; 2026 Konstrukt AI &middot; Alle rechten voorbehouden</div>
+</footer>
+
+<script>
+  const ham = document.getElementById('hamburger');
+  const nav = document.getElementById('nav-links');
+  ham.addEventListener('click', () => { ham.classList.toggle('open'); nav.classList.toggle('open'); });
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { ham.classList.remove('open'); nav.classList.remove('open'); }));
+</script>
+</body>
+</html>
